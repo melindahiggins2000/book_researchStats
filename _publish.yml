@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: a1c1d6f7-18ef-4643-859d-e1dd7e9f35b7
+      url: 'https://bookstats4researchers.netlify.app'
