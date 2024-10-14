@@ -1,4 +1,19 @@
-# Comparison of 3 or more Groups
+# Comparison of 3 or more Independent Groups
+
+The focus of this chapter is methods for comparing 3 or more independent groups
+
+* ANOVA - including post hoc tests
+* Kruskal-Wallis test - including post hoc tests with adjusted p-values
+* bootstrapping
+* permutations
+* simulations - maybe
+* bayesian
+* using a regression approach (dummary variables - thinking about multiple comparisons)
+* using a GLM approach (e.g. F-test = t-test squared)
+
+* add a discussion of effect sizes for each of these approaches
+
+---
 
 This is a book created from markdown and executable code.
 

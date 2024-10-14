@@ -13,6 +13,8 @@ book:
     - compare_2groups.qmd
     - compare_3plusgroups.qmd
     - multiple_predictors.qmd
+    - repeated_measures.qmd
+    - nooutcome.qmd
     - summary.qmd
     - references.qmd
 

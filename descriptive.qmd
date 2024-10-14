@@ -1,5 +1,15 @@
 # Descriptive Statistics
 
+* understanding how to describe data
+* exploring data issues
+* checking distributions - understanding the nuiances of parametrics and non-parametric
+* why does the CLT and normality matter - or does it?
+* exploring methods - means vs medians, sd vs IQR, CIs and boostrapped percentiles (2.5th, 97.5th)
+* parametric, non-parametric rank based methods, semi-parametric bootstrapping
+
+
+---
+
 This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.

@@ -1,4 +1,19 @@
-# Comparison of 2 Groups
+# Comparison of 2 Independent Groups
+
+The focus of this chapter is mainly comparing 2 independent groups
+
+* t-tests
+* Mann Whitney test
+* bootstrapping
+* permutations
+* simulations - maybe
+* bayesian
+* using a regression approach
+* using a GLM approach (e.g. F-test = t-test squared)
+
+* add a discussion of effect sizes for each of these approaches
+
+---
 
 This is a book created from markdown and executable code.
 

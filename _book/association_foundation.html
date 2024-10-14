@@ -187,13 +187,13 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./compare_2groups.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Groups</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Independent Groups</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./compare_3plusgroups.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Comparison of 3 or more Groups</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Comparison of 3 or more Independent Groups</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -204,8 +204,20 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./repeated_measures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">One Outcome - Multiple Predictors and/or Covariates</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nooutcome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">One Outcome - Multiple Predictors and/or Covariates</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -244,6 +256,38 @@ div.csl-indent {
 </header>
 
 
+<ul>
+<li>beyond 1 variable at the time</li>
+<li>looking at association - continuous, categorical, ordinal</li>
+<li>understanding the correlation matrix
+<ul>
+<li>directionality - dependent/independent - supervised (target) vs unsupervised - implied causality</li>
+<li>cont - cont - correlation, regression, scatterplots</li>
+<li>cont - 2grp - t-tests, mw tests, linear reg, pt-biserial corr</li>
+<li>cont - 3+grp - ANOVAs and the General Linear Model</li>
+<li>2 grp - cont - logistic regression (flip side of a t-test) - generalized linear models</li>
+<li>2+ grp w/ 2+grp - logistic regression (or nominal, ordinal reg) - and chi-square tests - also show 2grp diff proportions - chisq goodness of fit - explain understanding</li>
+<li>other types of respsonses - like count data Poisson or neg binomial regression</li>
+<li>dependent data - repeated measures and other dependent types (like right/left, etc)</li>
+<li>no specific outcome - unsupervised ML, PCA, FA, cluster analyses, etc</li>
+</ul></li>
+<li>thinking about the point of a given model
+<ul>
+<li>is it for hypothesis testing,</li>
+<li>to estimate the size of an effect,</li>
+<li>make predictions</li>
+<li>create a functional form to understand mechanisms</li>
+</ul></li>
+<li>breaking down the analysis approaches:
+<ul>
+<li>NHST, frequentist stats</li>
+<li>bootstrapping</li>
+<li>simulation?</li>
+<li>permutations</li>
+<li>bayesian</li>
+</ul></li>
+</ul>
+<hr>
 <p>This is a book created from markdown and executable code.</p>
 <p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
 <div class="cell">
@@ -655,8 +699,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./compare_2groups.html" class="pagination-link" aria-label="Comparison of 2 Groups">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Groups</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./compare_2groups.html" class="pagination-link" aria-label="Comparison of 2 Independent Groups">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Independent Groups</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

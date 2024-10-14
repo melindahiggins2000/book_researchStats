@@ -1,21 +1,15 @@
 # One Outcome - Multiple Predictors and/or Covariates
 
-This chapter (2 chapters) will focus the regression modeling approach with more than 1 predictor. Break into 2 chapters
+This chapter will get into why dependence matters - usually time within subject but could be any nested structure data...
 
 * continuous outcome - usual linear regression
     - bootstrapping
     - permutations
     - simulations - maybe
     - bayesian
-
-* categorical or other outcomes - generalized linear models
-    - bootstrapping
-    - permutations
-    - simulations - maybe
-    - bayesian
-
-* add a discussion of effect sizes for each of these approaches
-
+    
+* can also do this for categorical, binary, poisson, and other generalized outcomes...
+    
 ---
 
 This is a book created from markdown and executable code.

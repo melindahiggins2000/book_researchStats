@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Overview and intent of book\nexplain the parts\n\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "descriptive.html",
     "title": "2  Descriptive Statistics",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "understanding how to describe data\nexploring data issues\nchecking distributions - understanding the nuiances of parametrics and non-parametric\nwhy does the CLT and normality matter - or does it?\nexploring methods - means vs medians, sd vs IQR, CIs and boostrapped percentiles (2.5th, 97.5th)\nparametric, non-parametric rank based methods, semi-parametric bootstrapping\n\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "association_foundation.html",
     "title": "3  Foundation of Correlation/Association",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "beyond 1 variable at the time\nlooking at association - continuous, categorical, ordinal\nunderstanding the correlation matrix\n\ndirectionality - dependent/independent - supervised (target) vs unsupervised - implied causality\ncont - cont - correlation, regression, scatterplots\ncont - 2grp - t-tests, mw tests, linear reg, pt-biserial corr\ncont - 3+grp - ANOVAs and the General Linear Model\n2 grp - cont - logistic regression (flip side of a t-test) - generalized linear models\n2+ grp w/ 2+grp - logistic regression (or nominal, ordinal reg) - and chi-square tests - also show 2grp diff proportions - chisq goodness of fit - explain understanding\nother types of respsonses - like count data Poisson or neg binomial regression\ndependent data - repeated measures and other dependent types (like right/left, etc)\nno specific outcome - unsupervised ML, PCA, FA, cluster analyses, etc\n\nthinking about the point of a given model\n\nis it for hypothesis testing,\nto estimate the size of an effect,\nmake predictions\ncreate a functional form to understand mechanisms\n\nbreaking down the analysis approaches:\n\nNHST, frequentist stats\nbootstrapping\nsimulation?\npermutations\nbayesian\n\n\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Foundation of Correlation/Association</span>"
     ]
@@ -42,21 +42,21 @@
   {
     "objectID": "compare_2groups.html",
     "href": "compare_2groups.html",
-    "title": "4  Comparison of 2 Groups",
+    "title": "4  Comparison of 2 Independent Groups",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "The focus of this chapter is mainly comparing 2 independent groups\n\nt-tests\nMann Whitney test\nbootstrapping\npermutations\nsimulations - maybe\nbayesian\nusing a regression approach\nusing a GLM approach (e.g. F-test = t-test squared)\nadd a discussion of effect sizes for each of these approaches\n\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Comparison of 2 Groups</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Comparison of 2 Independent Groups</span>"
     ]
   },
   {
     "objectID": "compare_3plusgroups.html",
     "href": "compare_3plusgroups.html",
-    "title": "5  Comparison of 3 or more Groups",
+    "title": "5  Comparison of 3 or more Independent Groups",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "The focus of this chapter is methods for comparing 3 or more independent groups\n\nANOVA - including post hoc tests\nKruskal-Wallis test - including post hoc tests with adjusted p-values\nbootstrapping\npermutations\nsimulations - maybe\nbayesian\nusing a regression approach (dummary variables - thinking about multiple comparisons)\nusing a GLM approach (e.g. F-test = t-test squared)\nadd a discussion of effect sizes for each of these approaches\n\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Comparison of 3 or more Groups</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Comparison of 3 or more Independent Groups</span>"
     ]
   },
   {
@@ -64,19 +64,39 @@
     "href": "multiple_predictors.html",
     "title": "6  One Outcome - Multiple Predictors and/or Covariates",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "This chapter (2 chapters) will focus the regression modeling approach with more than 1 predictor. Break into 2 chapters\n\ncontinuous outcome - usual linear regression\n\nbootstrapping\npermutations\nsimulations - maybe\nbayesian\n\ncategorical or other outcomes - generalized linear models\n\nbootstrapping\npermutations\nsimulations - maybe\nbayesian\n\nadd a discussion of effect sizes for each of these approaches\n\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>One Outcome - Multiple Predictors and/or Covariates</span>"
     ]
   },
   {
+    "objectID": "repeated_measures.html",
+    "href": "repeated_measures.html",
+    "title": "7  One Outcome - Multiple Predictors and/or Covariates",
+    "section": "",
+    "text": "This chapter will get into why dependence matters - usually time within subject but could be any nested structure data…\n\ncontinuous outcome - usual linear regression\n\nbootstrapping\npermutations\nsimulations - maybe\nbayesian\n\ncan also do this for categorical, binary, poisson, and other generalized outcomes…\n\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>One Outcome - Multiple Predictors and/or Covariates</span>"
+    ]
+  },
+  {
+    "objectID": "nooutcome.html",
+    "href": "nooutcome.html",
+    "title": "8  One Outcome - Multiple Predictors and/or Covariates",
+    "section": "",
+    "text": "Up to this point we’ve focused on models with a specified target - what if we don’t have one.\n\nPCA and FA\nCluster Analyses\nother methods…\n\nmaybe add a chapter on MANOVA - links to logistic regression and discriminant analysis\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>One Outcome - Multiple Predictors and/or Covariates</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "7  Summary",
+    "title": "9  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {

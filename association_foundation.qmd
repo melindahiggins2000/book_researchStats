@@ -1,5 +1,36 @@
 # Foundation of Correlation/Association
 
+* beyond 1 variable at the time
+* looking at association - continuous, categorical, ordinal
+* understanding the correlation matrix
+    - directionality - dependent/independent - supervised (target) vs unsupervised - implied causality
+    - cont - cont - correlation, regression, scatterplots
+    - cont - 2grp - t-tests, mw tests, linear reg, pt-biserial corr
+    - cont - 3+grp - ANOVAs and the General Linear Model
+    - 2 grp - cont - logistic regression (flip side of a t-test) - generalized linear models
+    - 2+ grp w/ 2+grp - logistic regression (or nominal, ordinal reg) - and chi-square tests - also show 2grp diff proportions - chisq goodness of fit - explain understanding
+    - other types of respsonses - like count data Poisson or neg binomial regression
+    - dependent data - repeated measures and other dependent types (like right/left, etc)
+    - no specific outcome - unsupervised ML, PCA, FA, cluster analyses, etc
+    
+* thinking about the point of a given model 
+    - is it for hypothesis testing, 
+    - to estimate the size of an effect, 
+    - make predictions
+    - create a functional form to understand mechanisms
+    
+* breaking down the analysis approaches:
+    - NHST, frequentist stats
+    - bootstrapping
+    - simulation?
+    - permutations
+    - bayesian
+    
+
+    
+
+---
+
 This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.

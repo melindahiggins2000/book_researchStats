@@ -1,0 +1,19 @@
+# One Outcome - Multiple Predictors and/or Covariates
+
+Up to this point we've focused on models with a specified target - what if we don't have one.
+
+* PCA and FA
+* Cluster Analyses
+* other methods...
+
+maybe add a chapter on MANOVA - links to logistic regression and discriminant analysis
+
+---
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```

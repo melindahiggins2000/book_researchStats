@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>A Guide to Statistical Methods for Researchers - 4&nbsp; Comparison of 2 Groups</title>
+<title>A Guide to Statistical Methods for Researchers - 4&nbsp; Comparison of 2 Independent Groups</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -135,7 +135,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./compare_2groups.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Groups</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./compare_2groups.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Independent Groups</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -187,13 +187,13 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./compare_2groups.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Groups</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Independent Groups</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./compare_3plusgroups.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Comparison of 3 or more Groups</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Comparison of 3 or more Independent Groups</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -204,8 +204,20 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./repeated_measures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">One Outcome - Multiple Predictors and/or Covariates</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nooutcome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">One Outcome - Multiple Predictors and/or Covariates</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -227,7 +239,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Groups</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comparison of 2 Independent Groups</span></h1>
 </div>
 
 
@@ -244,6 +256,19 @@ div.csl-indent {
 </header>
 
 
+<p>The focus of this chapter is mainly comparing 2 independent groups</p>
+<ul>
+<li><p>t-tests</p></li>
+<li><p>Mann Whitney test</p></li>
+<li><p>bootstrapping</p></li>
+<li><p>permutations</p></li>
+<li><p>simulations - maybe</p></li>
+<li><p>bayesian</p></li>
+<li><p>using a regression approach</p></li>
+<li><p>using a GLM approach (e.g.&nbsp;F-test = t-test squared)</p></li>
+<li><p>add a discussion of effect sizes for each of these approaches</p></li>
+</ul>
+<hr>
 <p>This is a book created from markdown and executable code.</p>
 <p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
 <div class="cell">
@@ -655,8 +680,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./compare_3plusgroups.html" class="pagination-link" aria-label="Comparison of 3 or more Groups">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Comparison of 3 or more Groups</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./compare_3plusgroups.html" class="pagination-link" aria-label="Comparison of 3 or more Independent Groups">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Comparison of 3 or more Independent Groups</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
