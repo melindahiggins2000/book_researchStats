@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "book_researchStats"
+  title: "Statistics for Researchers"
   author: "Melinda Higgins"
   date: "10/14/2024"
   chapters:
