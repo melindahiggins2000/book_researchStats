@@ -2,12 +2,17 @@ project:
   type: book
 
 book:
-  title: "Statistics for Researchers"
+  title: "A Guide to Statistical Methods for Researchers"
   author: "Melinda Higgins"
   date: "10/14/2024"
   chapters:
     - index.qmd
     - intro.qmd
+    - descriptive.qmd
+    - association_foundation.qmd
+    - compare_2groups.qmd
+    - compare_3plusgroups.qmd
+    - multiple_predictors.qmd
     - summary.qmd
     - references.qmd
 
